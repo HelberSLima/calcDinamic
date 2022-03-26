@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+.background{
+    background-image: linear-gradient(45deg, black, crimson);
+    height: 100vh;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.calculadora{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+#display{
+    width: 210px;
+    height: 30px;
+    font-size: 25px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: black;
+    margin: 5px;
+    padding: 5px;
+    text-align: right;
+}
+
+.botao{
+    width: 47px;
+    height: 47px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin: 3px;
+    cursor: pointer;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: #fff;
+}
+
+.botao:hover{
+    background-color: rgb(15, 14, 14);
+}
+
+.botao-on{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #59b9a8;
+    cursor: pointer;
+    margin: 3px;
+    border: none;
+    color: #fff;
+}
+
+.botao-on:hover{
+    background-color: #259984;
+}
+
+.botao-off{
+    width: 47px;
+    height: 47px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: #fff;
+}
+
+.botao-off:hover{
+    background-color: rgb(15, 14, 14);
+}
+
+.botao-mrc{
+    width: 50px;
+    height: 20px;
+    border-radius: 40%;
+    background: #fff331;
+    cursor: pointer;
+    border: none;
+}
+
+.botao-mrc:hover{
+    background-color: #bbb510;
+}
+
+
+.botao-m_menos{
+    width: 50px;
+    height: 20px;
+    border-radius: 40%;
+    background: #fff331;
+    cursor: pointer;
+    border: none;
+}
+
+.botao-m_menos:hover{
+    background-color: #bbb510;
+}
+
+
+.botao-m_mais{
+    width: 50px;
+    height: 20px;
+    border-radius: 40%;
+    background: #fff331;
+    cursor: pointer;
+    border: none;
+}
+
+.botao-m_mais:hover{
+    background-color: #bbb510;
+}
+
+.botao-soma{
+    width: 50px;
+    height: 106px;
+    border-radius: 10px;
+    background: #59b9a8;
+    cursor: pointer;
+    margin: 3px;
+    border: none;
+    font-size: 30px;
+    color: #fff;
+}
+
+.botao-soma:hover{
+    background-color: #259984;
+}
